@@ -1,0 +1,82 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+    Item i = new Item(404, "livro de receitas");
+		//i.setCodigo(404);
+		//i.setDescricao("livro de receitas");
+		System.out.println(i);
+		
+		System.out.println("/n");
+		
+		Livro l = new Livro(404, "Livro de receitas","Bandolin");
+		//l.setCodigo(404);
+		//l.setDescricao("Livro de receitas");
+		//l.setAutor("Bandolin");
+		System.out.println(l);
+		
+		System.out.println("/n");
+		
+		Midia m = new Midia(101,"Album True damage", "music corp",90);
+		//m.setCodigo(101);
+		//m.setDescricao("Album True damage");
+		//m.setGravadora("music corp");
+		//m.setDuracao(90);
+		System.out.println(m);
+		
+		System.out.println("/n");
+		
+		VHS vhs= new VHS(102,"vídeos engraçados","fun corp",30,"melhores momentos 2020");
+		//vhs.setCodigo(102);
+		//vhs.setDescricao("vídeos engraçados");
+		//vhs.setGravadora("fun corp");
+		//vhs.setDuracao(30);
+		//vhs.setTitulo("melhores momentos 2020");
+		System.out.println(vhs);
+		
+		System.out.println("/n");
+		
+		CD cd = new CD(101,"Album true damage","music corp",90,30,"Akali","2");
+		//cd.setCodigo(101);
+		//cd.setDescricao("Album true damage");
+		////cd.setGravadora("music corp");
+		//cd.setDuracao(90);
+		//cd.setFaixas(30);
+		//cd.setArtista("Akali");
+		//cd.setAlbum("2");
+		System.out.println(cd);
+  
+  
+		Conta c = new Conta("Banco do Brasil",1,0000000000000000001,1500,0);
+		//c.setBanco("Banco do Brasil");
+		//c.setAgencia(1);
+		//c.setNumeroconta(0000000000000000001);
+		//c.setSaldo(1500);
+		//c.setValor(0);
+		System.out.println(c);
+		
+		System.out.println("/n");
+		
+		ContaSimples cs = new ContaSimples("Banco do Brasil",1,0000000000000000001,1500,0,1500);
+		//cs.setBanco("Banco do Brasil");
+		//cs.setAgencia(1);
+		//cs.setNumeroconta(0000000000000000001);
+		//cs.setSaldo(1500);
+		//cs.setValor(0);
+		//cs.setSaldoPoupanca(1500);
+		System.out.println(cs);
+		
+		System.out.println("/n");
+
+		ContaEspecial ce = new ContaEspecial("Caixa",2,0000000000000000002,2000,0,30,50000);
+		//ce.setBanco("Caixa");
+		//ce.setAgencia(2);
+		//ce.setNumeroconta(0000000000000000002);
+		//ce.setSaldo(2000);
+		//ce.setValor(0);
+		//ce.setDiasSemJuros(30);
+		//ce.setLimite(50000);
+		System.out.println(ce);
+	}
+
+}
